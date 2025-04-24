@@ -46,6 +46,7 @@ The Main file also creates a cloud folder to store encrypted files and a key fol
 This application simulates cloud storage but can easily be integrated to something like Google Drive using Google Drive API. Since the cloud folder is stored locally, any user can access the file in the cloud folder but will be unable to read the contents or encrypt it without having the needed private key. Only members of the secure cloud group can upload and download decrypted files to the cloud folder since a _pub.key and _priv.key file are needed. And such keys are only created from my application by being added to the Secure Cloud Storage group. The creation of a cloud folder can also be thought of as creating a connection with the cloud storage service. 
 
 Sources: 
+
 https://medium.com/javarevisited/appsec-a-developers-handbook-to-mastering-rsa-and-aes-encryption-9c0e6465452f 1  
 
 https://www.baeldung.com/java-aes-encryption-decryption2  
